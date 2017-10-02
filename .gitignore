@@ -1,0 +1,6 @@
+bundle.js
+node_modules/*
+swf/*.swf
+swf/version-list.js
+package-lock.json
+FlashWrapper.iml

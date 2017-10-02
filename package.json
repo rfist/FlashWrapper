@@ -1,0 +1,29 @@
+{
+  "name": "flashwrapper",
+  "version": "1.0.0",
+  "description": "wrapper fot swf testing",
+  "main": "index.js",
+  "scripts": {
+    "run": "http-server -o",
+    "update_versions": "cd swf && node generate-list.js",
+    "browserify": "node_modules\\.bin\\browserify -t reactify index.js > bundle.js",
+    "build": "npm run update_versions && npm run browserify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfist/FlashWrapper.git"
+  },
+  "author": "rfist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfist/FlashWrapper/issues"
+  },
+  "homepage": "https://github.com/rfist/FlashWrapper#readme",
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "http-server": "^0.10.0",
+    "react": "<15.0.0",
+    "react-dom": "<15.0.0",
+    "reactify": "^1.1.1"
+  }
+}

@@ -37,7 +37,7 @@ var FlashClient = React.createClass({
         var params = this.props.params;
         return (
             <div>
-                <object id="client" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="460" height="385">
+                <object id="client" width="460" height="385">
                     <object type="application/x-shockwave-flash" data={swfURL} width="460" height="385" param="{}">
                         <param name="flashvars" value={params} />
                         <div>
@@ -55,7 +55,7 @@ var FlashClient2 = React.createClass({
         var params = this.props.params;
         return (
             <div>
-                <object id="client" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="460" height="385">
+                <object id="client" width="460" height="385">
                     <object type="application/x-shockwave-flash" data={swfURL} width="460" height="385" param="{}">
                         <param name="flashvars" value={params} />
                         <div>

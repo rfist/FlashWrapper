@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rfist/FlashWrapper.git"
+    "url": "git+https://github.com/wimcraft/FlashWrapper.git"
   },
-  "author": "rfist",
+  "author": "wimcraft",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rfist/FlashWrapper/issues"
+    "url": "https://github.com/wimcraft/FlashWrapper/issues"
   },
-  "homepage": "https://github.com/rfist/FlashWrapper#readme",
+  "homepage": "https://github.com/wimcraft/FlashWrapper#readme",
   "dependencies": {
     "browserify": "^14.4.0",
     "http-server": "^0.10.0",
